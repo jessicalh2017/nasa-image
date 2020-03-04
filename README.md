@@ -18,8 +18,10 @@ Frontend is a bare-bones single page web application written with react/redux/ro
  * npm 6.13.4
  * Webpack 4.42.0
 
-### Run with gradlew
+### Run with gradlew 
+After clone the repo, run below commands in nasa-image directory:
 npm install
+mkdir tmp
 gradlew bootRun
 You can access the application with http://localhost:8080
 
