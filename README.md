@@ -18,37 +18,37 @@ Frontend is a bare-bones single page web application written with react/redux/ro
  * npm 6.13.4
  * Webpack 4.42.0
 
-### Run with gradlew 
+## Run with gradlew 
 After clone the repo, run below commands in nasa-image directory:
-npm install
-mkdir tmp
-gradlew bootRun
+ * npm install
+ * mkdir tmp
+ * gradlew bootRun
 You can access the application with http://localhost:8080
 
-### Docker
+## Docker
 Commands: 
-npm install
-gradlew clean build
-docker build -t nasa-image .
-docker run -p 9090:8080 nasa-image
+ * npm install
+ * gradlew clean build
+ * docker build -t nasa-image .
+ * docker run -p 9090:8080 nasa-image
 You can access the application with http://localhost:9090
 
 ###Known Issues and Improvement
 This application is written under time constraint. I would like to continue improvements:
 
-###Backend
-    Currently I assume all images are in jpeg format. In the future, I should add other image formats support.
-    Use tmp as directory for image repository as it is convenient. Later should find a better location and make the path configurable.
-    The image repository needs mechanism to control the size, handle deletion, etc.
-    Get Photos API does not support pagination.
-    Needs better unit test coverage.
+## Backend
+ * Currently I assume all images are in jpeg format. In the future, I should add other image formats support.
+ * Use tmp as directory for image repository as it is convenient. Later should find a better location and make the path configurable.
+ * The image repository needs mechanism to control the size, handle deletion, etc.
+ * Get Photos API does not support pagination.
+ * Needs better unit test coverage.
 
-###Frontend
-    No unit tests, should have used test framework like Jest or Mocha.
-    Needs better UI/UX styling.
-    Needs to support Pagination.
-    Needs better error handling.
-    Needs to better display different sizes of images.
+## Frontend
+ * No unit tests, should have used test framework like Jest or Mocha.
+ * Needs better UI/UX styling.
+ * Needs to support Pagination.
+ * Needs better error handling.
+ * Needs to better display different sizes of images.
     
     
 
