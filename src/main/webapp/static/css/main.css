@@ -1,0 +1,7 @@
+
+.rover_container {
+    background-repeat: no-repeat, repeat;
+    background-image: url("../images/backgournd.jpg"), url("../images/paper.jpg");
+    background-blend-mode: lighten;
+}
+

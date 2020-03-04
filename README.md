@@ -19,11 +19,13 @@ Frontend is a bare-bones single page web application written with react/redux/ro
  * Webpack 4.42.0
 
 ### Run with gradlew
+npm install
 gradlew bootRun
 You can access the application with http://localhost:8080
 
 ### Docker
 Commands: 
+npm install
 gradlew clean build
 docker build -t nasa-image .
 docker run -p 9090:8080 nasa-image
